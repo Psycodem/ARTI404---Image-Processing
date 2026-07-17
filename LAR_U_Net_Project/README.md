@@ -78,13 +78,3 @@ The model exhibits rapid convergence and strong numeric optimization characteris
 | **Net MAE Reduction**| **-0.0473** | **-0.0452** |
 
 > **Architectural Note on Generalization Boundaries:** While LAR-U-Net yields high PSNR gains on Salt & Pepper and Multiplicative metrics during quantitative data checks, visual inspection demonstrates that its denoising performance is intensely localized toward Gaussian distributions. This is primarily because residual mappings and Batch Normalization layers operate symmetrically along Gaussian probability densities, allowing them to mutually regularize each other during AWGN optimization steps.
-
----
-
-## 🚀 Getting Started
-
-### 1. Installation & Dependency Tracking
-Clone the repository and ensure your local Python environment has the matching deep learning packages installed:
-```bash
-git clone [https://github.com/your-username/LAR-U-Net.git](https://github.com/your-username/LAR-U-Net.git)
-cd LAR_U_Net_Project
